@@ -46,7 +46,7 @@ h5 {
 
 h1 {
     margin: 0;
-    color:rgba(0, 0, 0, 0.925);
+    color:rgb(255, 255, 255);
     font-size: 240%;  
 }
 
@@ -137,7 +137,7 @@ h6::after {
 /* ----------HEADER------------ */
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.075)),url(Images/istockphoto-1093222958-170667a.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(Images/istockphoto-1093222958-170667a.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -145,17 +145,20 @@ header{
 
 .hero-text-box{
     position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 30%;
-    transform: translate(-7%, -50%);
+    height: 200%;
+    width: auto;
+    top: 65%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo{
-    height: 100px;
+    position: absolute;
+    height: 400px;
     width: auto;
-    float: left;
-    margin-top: 20px;
+    top: 150px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .main-nav{
@@ -172,7 +175,7 @@ header{
 .main-nav li a:link, 
 .main-nav li a:visited {
     padding: 10px, 0;
-    color: rgba(0, 0, 0, 0.925);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 100%;
@@ -183,7 +186,7 @@ header{
 
 .main-nav li a:hover, 
 .main-nav li a:active {
-    border-bottom: 2px solid rgba(146, 12, 255, 0.884);
+    border-bottom: 2px solid rgba(247, 255, 137, 0.884);
 }
 
 /* -------------PACKAGES--------- */
